@@ -1,0 +1,32 @@
+.dmzk_show_title{
+  text-decoration:none;
+}
+
+.dmzktip {
+    display:none;
+    position:absolute;
+    background:rgba(50, 0, 55, 0.9);
+    padding:4px;
+    border-radius: 5px;
+    border:2.5px solid #5701A8;
+    z-index:777;
+    max-width:300px;
+    
+    font-family:sans-serif;
+}
+
+.mine_dmzktip_title{
+    color:#0CDCEB;
+    display:block;
+    margin-bottom:2px;
+}
+.mine_dmzktip_desc{
+    display:block;
+    color:#C7C7C7;
+    margin-bottom:2px;
+}
+.mine_dmzktip_lore{
+    color:#A816C9;
+    display:block;
+    margin-bottom:2px;
+}
