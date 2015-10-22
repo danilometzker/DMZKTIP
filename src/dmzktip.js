@@ -13,8 +13,8 @@ $( document ).ready(function(){
     	dmzktip.fadeOut(0); //Fade com delay = bug
     
 	}).mousemove(function(event){
-    	var posX = event.pageX+20;
-    	var posY = event.pageY+20;
+    	var posX = event.pageX+20; //20px para nao ocupar o ponteiro do mouse
+    	var posY = event.pageY+20; //20px para nao ocupar o ponteiro do mouse
     	var width = dmzktip.width();
     	var height = dmzktip.height();
     
