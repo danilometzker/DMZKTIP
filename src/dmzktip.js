@@ -15,8 +15,6 @@ $( document ).ready(function(){
 	}).mousemove(function(event){
     		var posX = event.pageX+20; //20px para nao ocupar o ponteiro do mouse
     		var posY = event.pageY+20; //20px para nao ocupar o ponteiro do mouse
-    		var width = dmzktip.width();
-    		var height = dmzktip.height();
     
     		dmzktip.css({top: posY});
     		dmzktip.css({left: posX});
